@@ -1,0 +1,139 @@
+/* External stack links horizontally */
+.navbar__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; /* Center the navbar buttons */
+}
+
+.navbar__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Padding for navbar items */
+.navbar__link {
+    padding: 10px;
+}
+
+/* Nicer font for navbar */
+.navbar__link {
+    font-family: Arial, sans-serif;
+}
+
+/* Light grey bar */
+.navbar {
+    background-color: #ccc; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Light grey buttons */
+.navbar__link {
+    background-color: #ccc; /* Light grey button background */
+    color: black; /* Black text color */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.navbar__link:hover {
+    background-color: #c11414; /* Darker grey on hover */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Default modern, trendy font */
+}
+
+/* Background image for section */
+.banner__container {
+    position: relative;
+    width: 80rem; /* Specify width in rem */
+    height: 22rem; /* Specify height in pixels */
+    background-image: url('graphics/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden; /* Hide any overflow of the background image */
+}
+
+/* Yellow color for B */
+.banner__heading-letter--yellow {
+    color: yellow;
+}
+
+/* Orange color for I */
+.banner__heading-letter--red {
+    color: orange;
+}
+
+/* Blue color for K */
+.banner__heading-letter--blue {
+    color: blue;
+}
+
+/* Underline and space for Kindergarden */
+.banner__heading-letter--blue + br + .banner__heading-letter--yellow {
+    text-decoration: underline;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Indent text by 20% from left and vertically center */
+.banner__heading {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white; /* Set text color to white */
+}
+/* Center text within mission container */
+.mission__container {
+    text-align: center;
+}
+
+/* Light yellow background for mission container */
+.mission {
+    background-color: #ffffcc; /* Light yellow background */
+    padding: 20px; /* Add padding for better readability */
+}
+
+.about-us__container {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+/* Our Team section container */
+.our-team__container {
+    text-align: center; /* Center content horizontally */
+}
+
+/* Red-orange background for Our Team section */
+.our-team {
+    background-color: #ff4500; /* Red-orange background */
+}
+
+/* Our Team person container */
+.our-team__person {
+    display: block; /* Display as inline-block for positioning */
+    margin-right: 2rem; /* Add some space between team members */
+}
+
+/* Our Team person image */
+.our-team__image {
+    width: 5rem; /* Set image width */
+    height: 5rem; /* Set image height */
+    border-radius: 50%; /* Make the image round */
+}
+
